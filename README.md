@@ -2,9 +2,10 @@
 
 This is a script to download Windows 10 ISO (self Hosted) and mount it withing windows 7 to then perform an in-place upgrade. 
 
-### Markdown
+### Passable Peramiters
 
-This script can take some basic peramiters for the hostl location, local location and minimum space.
+URL, URLWinCDm, LocalPath, LogPath, MinSpace
+Or just est the defualt loadout in the Peram block.
 
 ```markdown
 Param(
