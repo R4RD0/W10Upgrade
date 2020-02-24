@@ -1,37 +1,24 @@
-## Welcome to GitHub Pages
+## W10Upgrade
 
-You can use the [editor on GitHub](https://github.com/R4RD0/W10Upgrade/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This is a script to download Windows 10 ISO (self Hosted) and mount it withing windows 7 to then perform an in-place upgrade. 
 
 ### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+This script can take some basic peramiters for the hostl location, local location and minimum space.
 
 ```markdown
-Syntax highlighted code block
+Param(
+    [Parameter(Mandatory = $false)] 
+    [String]$URL = "http://Enter.YourOwnWebHost.com/windows10.iso";, #pre defined URL for ISO
+    [String]$URLWinCD = "https://s3.eu-west-2.amazonaws.com/de.rar.do/dl/PortableWinCDEmu-4.0.exe";, #WinCDEmu to mount the ISO
+    [String]$localpath = "C:\Temp", # predefine local path to save ISO - IMPORTANT No trailing "\"
+    [int]$minspace = 30, # Minimum free HDD Space Required
+    [string]$logpath = "C:\Temp" # Logs turned off if folder not specified.
+)
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/R4RD0/W10Upgrade/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+One can try and help where possible
