@@ -11,19 +11,6 @@
 The 3rd party tool currently set is available from https://github.com/sysprogs/WinCDEmu "PortableWinCDEmu-4.0.exe" - best to be self hosted as pulling straight from GitHub will fail due to delayed response from the site.
 
 
-### Details
-| Order of action       | Default result |
-| ------------- |------------- |
-| Check drive space of C       | Error and Exit if too low.|
-| Check/Create Temp folder     | Skip if exists |
-| Create Logs | Set date/time and hostname - create log file |
-| Download ISO and WinCD | Delete if already exists to ensure latest non corrupt version |
-| Install driver for WinCD | /install (/uninstall optional)
-| Mount ISO  | Randomly select a drive letter and mount the ISO to it.
-| Set the Command String for setup.exe | throw the drive letter and log folder in to the setup string |
-| Run it | calls setup.exe and closes the script. |
-
-
 ### Passable Peramiters
 
 URL, URLWinCDm, LocalPath, LogPath, MinSpace
@@ -40,8 +27,3 @@ Param(
 )
 
 ```
-
-
-### Support or Contact
-
-One can try and help where possible
