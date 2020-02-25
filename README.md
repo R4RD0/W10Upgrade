@@ -1,5 +1,4 @@
 ## W10Upgrade
-![GitHub All Releases](https://img.shields.io/github/downloads/R4RD0/W10Upgrade/total)
 ![GitHub All Releases](https://img.shields.io/badge/Powershell-2.0-green)
 ### Windows 7 & Windows 10 In Place Upgrade
 
