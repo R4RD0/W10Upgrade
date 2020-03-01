@@ -7,7 +7,7 @@
   Downloads the ISO from the location specified and 3rd part tools if required.
   Mounts ISO and kicks off the install command, from this point onwards it's all up to the Device itself.
   
-  This wil only work with a authenticated version of windows.
+  This will only work with a authenticated version of windows.
   
   The ISO can be sourced from the Media Creation Tool https://www.microsoft.com/en-gb/software-download/windows10 - always the latest version (currently 1909)
   ISOs sourced from the Media Creation Tool and Retail versions seem to work (untested with preview versions).
